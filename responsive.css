@@ -1,0 +1,172 @@
+/* DUA */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .dua-wrapper {
+    padding: 0 70px;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .dua-wrapper {
+    padding: 0 30px;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+/* TIGA */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .project-wrapper {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .project{
+    text-align: center;
+  }
+
+  .txt-content {
+    text-align: center;
+    float: none;
+    padding-left: 0;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .project-pic {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+/*untuk android*/
+@media all and (max-width: 670px) {
+  .project-wrapper {
+    padding-left: 100px;
+    padding-right: 100px
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .txt-content h3 {
+    font-size: 30px
+  }
+
+  .txt-content p {
+    font-size: 16px;
+  }
+
+  .project-pic {
+    width: 80%;
+  }
+
+}
+
+
+
+
+
+/* EMPAT */
+
+@media (max-width:1000px) {
+  .message4{
+    width:50%;
+    margin-bottom:50px;
+  }
+  .heading4 h2{
+    font-size:30px;
+
+  }
+  .message-wrapper4 h2{
+    font-size:30px;
+  }
+  .message-wrapper4 {
+    width:800px;
+  }
+  .message4 h3 {
+    padding-left: 100px;
+  }
+}
+@media (max-width:670px){
+  .message4{
+    width:100%;
+    text-align: center;
+  }
+  .heading4 h2{
+    font-size:25px;
+  }
+  .message-wrapper4 h2{
+    font-size:30px;
+  }
+  .message-wrapper4 {
+    width:400px;
+  }
+  .message4 h3 {
+    padding-left: 30px;
+  }
+}
+
+
+
+
+/* LIMA */
+
+@media all and (max-width: 1000px) {
+  .tentang {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+    footer {
+    text-align: center;
+    padding-top: 5000px;
+  }
+}
+ 
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .tentang{
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding-top: 2700px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .letstalk {
+    margin-to: 10px;
+  }
+ 
+  .about {
+    line-height: 10px;
+    font-size: 20px;
+  }
+
+  .follow {
+    line-height: 10px;
+    font-size: 20px;
+  }
+}
